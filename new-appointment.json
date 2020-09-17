@@ -1,0 +1,74 @@
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "themeColor": "0076D7",
+  "summary": "New Appointment",
+  "sections": [
+    {
+      "activityTitle": "![TestImage](https://47a92947.ngrok.io/Content/Images/default.png)New appointment",
+      "activitySubtitle": "Nuance Hackathon 2020",
+      "activityImage": "https://teamsnodesample.azurewebsites.net/static/img/image5.png",
+      "facts": [
+        {
+          "name": "Patient name",
+          "value": "Mr. xyz"
+        },
+        {
+          "name": "Assigned to",
+          "value": "Dr. Vivek Mittal"
+        },
+        {
+          "name": "Requested date",
+          "value": "Sun Sep 20 2020 17:00:00 GMT+0530 (IST)"
+        },
+        {
+          "name": "Status",
+          "value": "New"
+        }
+      ],
+      "markdown": true
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "ActionCard",
+      "name": "Accept",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "comment",
+          "isMultiline": false,
+          "title": "Status",
+          "value": "Appointment accepted!"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "@type": "ActionCard",
+      "name": "Reject",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "comment",
+          "isMultiline": false,
+          "title": "Status",
+          "value": "Appointment rejected!"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "@type": "ActionCard",
+      "name": "Propose new date",
+      "inputs": [
+        {
+          "@type": "DateInput",
+          "id": "newDueDate",
+          "title": "Choose new date"
+        }
+      ],
+      "actions": []
+    }
+  ]
+}

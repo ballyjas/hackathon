@@ -1,0 +1,67 @@
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "themeColor": "0076D7",
+  "summary": "New Appointment",
+  "sections": [
+    {
+      "activityTitle": "![TestImage](https://47a92947.ngrok.io/Content/Images/default.png)Order Refil",
+      "activitySubtitle": "Nuance Hackathon 2020",
+      "activityImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZOK_h24ttZXPRyMm6wtaCs5HYtUAc5GrHuQ&usqp=CAU",
+      "facts": [
+        {
+          "name": "Patient name",
+          "value": "Mr. abc"
+        },
+        {
+          "name": "Last Order #",
+          "value": "pharmacy/2020/1234"
+        }
+      ],
+      "markdown": true
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "ActionCard",
+      "name": "Accept",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "commentOrderPlaced",
+          "isMultiline": false,
+          "title": "Status",
+          "value": "Order placed!"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "@type": "ActionCard",
+      "name": "Amend",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "commentOrderAmend",
+          "isMultiline": false,
+          "title": "Add items",
+          "value": ""
+        }
+      ],
+      "actions": []
+    },
+    {
+      "@type": "ActionCard",
+      "name": "Cancel",
+      "inputs": [
+        {
+          "@type": "TextInput",
+          "id": "orderCancel",
+          "title": "Order cancelled",
+          "value": ""
+        }
+      ],
+      "actions": []
+    }
+  ]
+}
