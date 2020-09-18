@@ -7,15 +7,15 @@
     {
       "activityTitle": "![TestImage](https://47a92947.ngrok.io/Content/Images/default.png)New appointment",
       "activitySubtitle": "Nuance Hackathon 2020",
-      "activityImage": "https://teamsnodesample.azurewebsites.net/static/img/image5.png",
+      "activityImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0xNyZt5z99WOrdGhp4I_CiaLn61D5-t7BZQ&usqp=CAU",
       "facts": [
         {
           "name": "Patient name",
-          "value": "Mr. xyz"
+          "value": "Harrison, Matthew"
         },
         {
           "name": "Assigned to",
-          "value": "Dr. Vivek Mittal"
+          "value": "Dr. Faubel, Ken"
         },
         {
           "name": "Requested date",
